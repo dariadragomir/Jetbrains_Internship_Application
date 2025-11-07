@@ -1,0 +1,17 @@
+<idea-plugin>
+    <id>com.example.mcp.inspectorlite</id>
+    <name>MCP Inspector Lite</name>
+    <vendor email="dev@example.com">Example</vendor>
+    <description>Minimal MCP inspector to connect, list tools, and invoke one.</description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="MCP Inspector Lite"
+                    anchor="right"
+                    factoryClass="com.example.mcp.ui.McpToolWindowFactory"
+                    canCloseContents="false"/>
+    </extensions>
+
+</idea-plugin>
+
